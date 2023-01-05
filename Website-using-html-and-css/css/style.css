@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    background: rgba(48, 48, 48, 0.041);
+    padding: 0.5em;
+}
+.max-width{
+    padding: 0 50px;
+    margin: auto;
+    margin-right: 0;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items img{
+    margin: 0.5em;
+    width: 15em;
+    height: 3em;
+}
+
+.nav-list{
+    display: inline-flex;
+    list-style: none;
+    
+}
+.nav-list li{
+    padding: 0.8em;
+    font-family: 'open sans',sans-serif;
+    font-weight: 500;
+}
